@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Preston Allen Tables and Forms</title>
+</head>
+<body>
+<h1>Pizza Ordering Form</h1>
+
+<form>
+  <h2>Contact Information</h2>
+  <label for="inName">Name</label>
+  <input type="text" name="inName" id="inName" required><br>
+
+  <label for="phone">Phone</label>
+  <input type="tel" id="phone" name="phone" required><br>
+
+  <label for="email">E-mail</label>
+  <input type="email" id="email" name="email" required><br>
+
+
+  <h2>Select Pizza Slice</h2>
+
+  <select required>
+    <option value="">--Select Size--</option>
+    <option>Medium</option>
+    <option>Large</option>
+    <option>X-Large</option>
+  </select>
+
+
+  <h2>Select Sauce</h2>
+  <input type="radio" name="sauce" required> Marinara<br>
+  <input type="radio" name="sauce"> Ranch<br>
+  <input type="radio" name="sauce"> No Sauce<br>
+
+  <h2>Select Toppings</h2>
+  <input type="checkbox"> Pepperoni
+  <input type="checkbox"> Sausage<br>
+  <input type="checkbox"> Mushroom
+  <input type="checkbox"> Pineapple<br>
+  <input type="checkbox"> Peppers
+  <input type="checkbox"> Onions<br>
+
+  <h2>Additional Instructions</h2>
+  <textarea name="comments">Add Instructions</textarea>
+
+
+  <br><br><input type="submit" value="Submit!">
+</form>
+
+<h3>List of My Favorite Games</h3>
+<table border="1">
+  <tr>
+    <th>Developer</th>
+    <th>Titles</th>
+    <th>Year</th>
+  </tr>
+
+  <tr>
+    <td rowspan="3">ATLUS</td>
+    <td>Persona 3: Reload</td>
+    <td>2024</td>
+  </tr>
+  <tr>
+    <td>Persona 4: Golden</td>
+    <td>2020</td>
+  </tr>
+  <tr>
+    <td>Persona 5: Royal</td>
+    <td>2019</td>
+  </tr>
+
+  <tr>
+    <td>Mojang</td>
+    <td>Minecraft</td>
+    <td>2011</td>
+  </tr>
+
+  <tr>
+    <td>RGG Studio</td>
+    <td>Yakuza 0</td>
+    <td>2015</td>
+  </tr>
+
+  <tr>
+    <td>Re-Logic</td>
+    <td>Terraria</td>
+    <td>2011</td>
+  </tr>
+
+  <tr>
+    <td>ConcernedApe</td>
+    <td>Stardew Valley</td>
+    <td>2016</td>
+  </tr>
+
+  <tr>
+    <td colspan="3">Count: 7</td>
+  </tr>
+
+</table>
+
+
+</body>
+</html>
