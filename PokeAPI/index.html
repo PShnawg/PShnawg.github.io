@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon Team Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h2>Name or ID</h2>
+
+  <input id="pokemonInput" type="text">
+  <button id="findBtn">Find</button>
+
+  <div id="pokemonDisplay">
+    <img id="pokemonImg" class="missingno" src="images/missingno.png">
+
+    <audio id="pokemonAudio" controls></audio>
+
+    <div class="moves">
+      <select class="move"></select>
+      <select class="move"></select>
+      <select class="move"></select>
+      <select class="move"></select>
+    </div>
+
+    <button id="addBtn">Add to Team</button>
+  </div>
+
+  <hr>
+
+  <div id="teamArea"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

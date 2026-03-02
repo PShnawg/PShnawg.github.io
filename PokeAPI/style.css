@@ -1,0 +1,79 @@
+body {
+    background-color: #8fb3bf;
+    font-family: Arial;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    border: 6px solid goldenrod;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.moves {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.moves select {
+    width: 180px;
+}
+
+select {
+    margin: 5px;
+}
+
+/* Team card which centers img and moves */
+.teamCard {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+/* makes the list tighter */
+.teamCard ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#teamArea {
+    margin-top: 15px;
+}
+
+.teamCard img {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+#pokemonDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemonImg {
+    width: 200px;
+    height: auto;
+    image-rendering: pixelated;
+}
+
+#pokemonImg.missingno {
+    width: 120px;
+}
